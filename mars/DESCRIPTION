@@ -1,0 +1,25 @@
+Package: mars
+Title: Fitting a Multivariate Adaptive Regression Splines (MARS)
+Version: 0.0.0.9000
+Authors@R:
+    person("Tauseef ","Kashtwari", , "tauseefk@sfu.ca", role = c("aut", "cre"),
+           comment = c(ORCID = "301279712"))
+    person("Promit ", "Chowdhury", , "promitc@sfu.ca", role = c("aut", "cre"),
+           comment = c(ORCID = "301353148"))
+    person("Ibraheem  ", "Azad", , "iazad@sfu.ca", role = c("aut", "cre"),
+           comment = c(ORCID = "301281326"))
+Description: This package provides function to fit a Multivariate adaptive regression splines (MARS) model. Four methods are also provided to apply on the mars object.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: stats, ISLR, grDevices, graphics, AmesHousing, devtools
+Suggests: 
+    rmarkdown,
+    knitr,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+Depends: 
+    R (>= 2.10)
+LazyData: true
